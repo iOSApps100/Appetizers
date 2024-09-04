@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Appetizers
 //
-//  Created by Vivek  Garg on 03/09/24.
+//  Created by Vikram Kumar on 03/09/24.
 //
 
 import SwiftUI
@@ -26,6 +26,7 @@ struct AppetizerTabView: View {
                     Text("Order")
                 }
         }
+        .accentColor(Color("brandPrimary"))
         
     }
 }
