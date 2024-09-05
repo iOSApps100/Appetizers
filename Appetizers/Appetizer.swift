@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppetizerResponse {
+struct AppetizerResponse: Decodable {
     let request: [Appetizer]
 }
 
